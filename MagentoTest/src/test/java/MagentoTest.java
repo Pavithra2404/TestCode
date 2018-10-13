@@ -13,7 +13,7 @@ public class MagentoTest {
 	public void posCredentials() throws Exception
 	{
 		String url="http://www.magento.com";
-		WebDriver driver= new ChromeDriver();
+		WebDriver driver= new FirefoxDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		
